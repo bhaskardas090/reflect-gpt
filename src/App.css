@@ -1,0 +1,26 @@
+/* IMCOMING MESSAGE */
+.cs-message--incoming .cs-message__content,.cs-message__content {
+  background-color: #FFE0B2;
+  /* color: white; */
+}
+
+/* OUTGOING MESSAGE */
+.cs-message--outgoing .cs-message__content{
+  background-color: #2C2C2C;
+  margin: 1rem auto;
+  font-weight: 500;
+  color: white;
+}
+
+/* INPUT MESSAGE FIELD */
+.cs-message-input__content-editor-wrapper, .cs-message-input__content-editor, .cs-message-input__content-editor-container{
+  background-color: transparent;
+} /* Chaning Color */
+
+.cs-chat-container .cs-message-input .cs-message-input__content-editor-wrapper:first-child{
+  margin: 0px;
+} /* Changing Margin Left */
+
+.cs-button--send{
+  color: #2C2C2C;
+} /* Changing Send Button Color */
